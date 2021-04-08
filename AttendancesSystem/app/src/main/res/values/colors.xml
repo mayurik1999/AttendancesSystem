@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSlide_1">#009688</color>
+    <color name="colorSlide_2">#795548</color>
+    <color name="colorSlide_3">#8BC34A</color>
+    <color name="colorSlide_4">#3F51B5</color>
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878b</color>
+    <color name="selected">#f53524</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="primary">#03A9F4</color>
+    <color name="primary_dark">#0288D1</color>
+    <color name="black">#000000</color>
+
+    <color name="dashboard_gray_background">#B2C1C8</color>
+    <!-- A light Holo shade of blue -->
+    <color name="blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of gray -->
+    <color name="gray_light">#33999999</color>
+    <!-- A dark Holo shade of gray -->
+    <color name="gray_dark">#BB666666</color>
+    <!-- A light Holo shade of green -->
+    <color name="green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="red_dark">#ffcc0000</color>
+    <color name="orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="blue_bright">#ff00ddff</color>
+    <!-- A really bright Holo shade of gray -->
+    <color name="gray_bright">#33CCCCCC</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorRow">#E5E6EC</color>
+</resources>

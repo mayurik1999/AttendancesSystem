@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/atten"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DashBoard"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line1"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_person_black_24dp"></com.mikhaellopez.circularimageview.CircularImageView>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/addstudent"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/download"></com.mikhaellopez.circularimageview.CircularImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="20dp"
+                android:text="Profile"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:text="Add Student"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line2"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/viewattendaceF"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/takeatten"></com.mikhaellopez.circularimageview.CircularImageView>
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/takeAttendance"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/viewatten"></com.mikhaellopez.circularimageview.CircularImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="View \n Attendance"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Take \n Attendance"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+
+
+</RelativeLayout>

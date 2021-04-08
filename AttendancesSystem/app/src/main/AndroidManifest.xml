@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attendancessystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.AttendancesSystem">
+        <activity android:name=".View_attendace_student"></activity>
+        <activity android:name=".Staff_profile" />
+        <activity android:name=".Add_student" />
+        <activity android:name=".View_attendance_teacher" />
+        <activity android:name=".Give_attendance" />
+        <activity android:name=".Student_Activity" />
+        <activity android:name=".Staff_Activity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LogIn" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

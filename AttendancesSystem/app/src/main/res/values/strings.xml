@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AttendancesSystem</string>
+    <string name="loading_data" ></string>
+
+
+    <string-array name="Department">
+        <item>Computer Science and Engineering </item>
+        <item>Electronics and Telecomm. Engineering </item>
+        <item>Electrical Engineering </item>
+        <item>Civil Engineering </item>
+        <item>Mechanical Engineering </item>
+    </string-array>
+
+
+    <string-array name="FirstYearSubjects">
+        <item>Mathematics</item>
+        <item>Electronic Devices</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+    </string-array>
+
+    <string-array name="SecondYearSubjects">
+        <item>Mathematics</item>
+        <item>Computer Architecture</item>
+        <item>Data Structures</item>
+        <item>Digital System Design</item>
+    </string-array>
+
+    <string-array name="ThirdYearSubjects">
+        <item>Database management systems</item>
+        <item>Microprocessors and Micro-controller applications</item>
+        <item>Software engineering</item>
+        <item>Telecommunication switching</item>
+    </string-array>
+
+    <string-array name="FourthYearSubjects">
+        <item>Database management systems</item>
+        <item>Microprocessors and Micro-controller applications</item>
+        <item>Software engineering</item>
+        <item>Telecommunication switching</item>
+    </string-array>
+
+
+    <string-array name="Years">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+
+
+</resources>
